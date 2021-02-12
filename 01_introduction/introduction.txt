@@ -1,0 +1,28 @@
+
+
+# Design Patterns Introduction
+
+## Delegation
+Delegate functionality to another object.
+Promotes re-use, limits the number of class definitions, reduce inheritance.
+
+## Interface
+Bundle service definition in one interface
+Loose coupling between client and service implementation
+
+## Immutable
+Is an object with a certain set of state
+The state is initialized during start up but aftewards the state is not accessible anymore and it also doesn't change anymore
+State is passed through on object construction
+
+## Design patter catalog
+Is a large catalog of design patterns
+
+### Creational patterns
+    Object creation: allow easy object creation.
+
+### Structural patterns
+    Composition of class or objects
+
+### Behavioural patterns
+    Object interaction
