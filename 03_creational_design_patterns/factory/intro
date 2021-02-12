@@ -1,0 +1,26 @@
+
+Factory method:
+	Great for delegating object creation at runtime
+	
+Designed to let developers easily create new documents
+Designed to create a framework so a new applications could have their own document type
+Re-use code
+
+Intent:
+	Define an interface for creating an object but let subclasses decide which class to instantiate
+	Factory Method lets a class defer instantiation to subclasses.
+	Known as virtual constructor.
+
+When to use:
+	A class can't expect the type of object it must create.
+	Subclasses must decide what types of objects are created.
+
+Benefits:
+	Delegates object creation to runtime. We don't need to know in advance what type of object will be created.
+	Hooks for subclasses to extend the framework.
+	The Base Class can provide a default implementation.
+	
+
+	
+
+	

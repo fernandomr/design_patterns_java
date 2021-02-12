@@ -1,0 +1,26 @@
+
+Abstract Factory method:
+	Great for creating object families
+
+
+Intent:
+	Provide an interface for creating families of related or dependent objects without specifying their concrete classes;
+
+
+When to use:
+	Creation of product independent from the application. Ex: the clients don't really have to know how to create the objects;
+	Configuration of product families is required (it can confine this control inside the factory);
+	When it is wanted to hide product implementation and only provide an interface to some clients;
+
+
+Benefits:
+	Much more control of the classes of objects to be created
+	Easily exchange product families. Ex: easily change between PinkThemeFactory and YellowThemeFactory
+	Promote consistency among products: by providing an interface it gets clear how the client needs to 
+		work with a third product (AbstractFactory).
+
+Drawbacks:
+	Addition of new products is difficult: it needs to extend the factory interface;
+	Provide implementation for each extra definition for the factory. Ex: if added an IconWindow, 
+		you have to extend the FactoryInterface and an implementation for each theme needs to be provided.
+

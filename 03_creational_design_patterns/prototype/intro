@@ -1,0 +1,23 @@
+
+Prototype method:
+	It creates objects based on other objects, which are called prototypes.
+
+
+Intent:
+	Specify the kinds of objects to create using a prototypical instance and create new objects by copying this prototype.
+
+
+When to use:
+	Classes that need to be instantiated are specific at run time.
+	When there's a need to  avoid building class hierarchies.
+	A class can have multiple instances of state.
+
+
+Benefits:
+	Add/remove prototypes at runtime.
+	Reduce sub classing.
+	Configure application dynamically
+	Different values for new objects: when dynamically changing the prototype it can also change the state of its properties.
+
+Drawbacks:
+	Requires to create prototypes before other object creation.
