@@ -1,0 +1,24 @@
+
+Intent:
+	Provide an unified interface to a set of interfaces in a subsystem.
+	Façade defines a higher level interface that makes the subsystem easier to use.
+
+When to use:
+	Decouple clients from subsystems;
+	Provide a simple interface;
+	Subsystem layering (business, data and client services) and each of the layers provides a façade to the other layer.
+
+The Façade is a subsystem access point.
+It knows how the subsystem works.
+It delegates the functionalities to the subsystem because the functionalities are only implemented in the subsystem.
+
+Façade needs to translate a request into subsystem specific objects.
+
+Benefits:
+	Clients don't have to access the subsystem.
+	Loose coupling.
+	Subsystem still can be used directly (if necessary).
+
+Drawback:
+	Façade introduces an extra programming layer.
+	

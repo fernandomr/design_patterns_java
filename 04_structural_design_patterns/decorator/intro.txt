@@ -1,0 +1,27 @@
+
+Intent:
+	Attach additional responsibilities to an object dynamically.
+	Provide flexible alternative to subclassing for extending functionality.
+	Also known as wrapper.
+
+When to use:
+	Add functionality to objects without affecting other objects.
+	Functionalities can be taken away in the future.
+	When extension by subclassing is difficult.
+
+The adapter forwards the request to an adaptee;
+
+
+Benefits:
+	More flexible than inheritance, because needed functionalities can be specified at runtime.
+	Implement functionality where it's actually needed.
+	
+
+Drawback:
+	Object identity cannot be used with decorators (ex: by extending a component with an ID, the decorators 
+	will not have different ID's).
+	Sometimes you'll may have too many small decorator objects.
+
+The Decorator:
+	Add behaviour to objects.
+	More flexible than extending classes.

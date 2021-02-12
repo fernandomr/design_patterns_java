@@ -1,0 +1,27 @@
+
+Intent:
+	Convert the interface of a class into another interface the client expects.
+	An adapter lets classes work together that otherwise couldn't work because of incompatible interfaces.
+
+When to use:
+	When we want to re-use an existing class;
+	Combine unrelated classes with an incompatible interface;
+
+The adapter forwards the request to an adaptee;
+	- Can be through the adapter itself (inheritance);
+	- Can be through a reference of the adaptee;
+
+
+Benefits:
+	Adapter can override adaptee behaviour -> it is a subclass;
+	One adapter can work with many adaptees;
+	
+
+Drawback:
+	Adapter won't work for a class with many subclasses (can't extend them all);
+	Sometimes is harder to override the adaptee behaviour.
+
+The adapter:
+	Can connect legacy systems;
+	Can adapt one interface to another;
+	
