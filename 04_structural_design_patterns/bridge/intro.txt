@@ -1,0 +1,21 @@
+
+Intent:
+	Decouple an abstraction from its implementation so that the two can vary independently.
+	Known as: Handle, Body
+
+When to use:
+	When we want to loosely couple an interface and its implementation;
+	When there could be subclasses for abstraction and implementation;
+	If you need to change the implementation at runtime without affecting clients.;
+
+Benefits:
+	Decouple interface and implementation;
+	Improve extensibility;
+	Hide implementation details;
+	Reduce number of subclasses
+
+Drawback:
+	--
+
+The bridge:
+	--
