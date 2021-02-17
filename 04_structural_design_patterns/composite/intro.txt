@@ -1,0 +1,22 @@
+
+Intent:
+	Compose objects into tree structures to represent part-whole hierarchies.
+	Composite lets clients treat individual objects and composition of objects uniformly.
+
+When to use:
+	When we want to ignore differences between compositions and individual items
+	When we wnat to represent part-whole hierarchies of objects.
+	
+
+Benefits:
+	Define class hierarchies of consistent objects.
+	To the client is simplified:
+		- No distinction between child and composite objects.
+	Easy to add new components
+
+Drawback:
+	It can be hard to add new components with different expectations.
+	When there's a mix of structures (like tree and list) its best not to use Composite pattern.
+
+The composite:
+	--
