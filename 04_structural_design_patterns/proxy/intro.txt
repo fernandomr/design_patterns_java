@@ -1,0 +1,21 @@
+
+Intent:
+	Provide a surrogate or placeholder for another object to control access to it.
+	Known as: surrogate.
+
+When to use:
+	When extra functionality is required and this extra functionality is required in a very transparent way.
+	When you need more than just a reference to an object.
+
+Examples:
+	To access remote proxy (access network separated classes)
+	To access a virtual proxy (create expensive objects on demand)
+	Protection proxy (access management)
+	Added functionality. Ex: wrap a object in a proxy and count the number of references this object has.
+
+Consequences:
+	Adds indirection (define this!)
+	Can be beneficial in many cases: remote, virtual and smart proxies.
+
+The proxy pattern:
+	- Transparently add functionality;
