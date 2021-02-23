@@ -1,0 +1,25 @@
+
+Intent:
+	Provide a way to support a large number of fine-grained objects efficiently
+
+When to use:
+	Large number of objects
+	High storage costs
+	Extrinsic state (shareable)
+	Many objects -> replaced by few objects
+	Object identity isn't necessary
+
+Benefits:
+	Reduce the number of instances
+	Share intrinsic state per object
+
+Drawback:
+	Factory needs to manage shared instances -> run-time overhead
+
+The flyweight can be used along with composite pattern. The leaf nodes in the composite pattern 
+are the flyweight
+
+
+Conclusion:
+	Improve performance
+	Manage objects more efficiently	
