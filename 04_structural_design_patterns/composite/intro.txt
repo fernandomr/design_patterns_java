@@ -5,7 +5,7 @@ Intent:
 
 When to use:
 	When we want to ignore differences between compositions and individual items
-	When we wnat to represent part-whole hierarchies of objects.
+	When we want to represent part-whole hierarchies of objects.
 	
 
 Benefits:

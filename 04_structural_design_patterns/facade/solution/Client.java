@@ -19,6 +19,10 @@ public class Client {
 		
 		financialSystemFacade.createInvoice(1200);
 		
+		// Tests:
+		ProspectSystemFacade prospectFacade = new ProspectSystemFacade();
+		prospectFacade.createProspect("Mr. John Doe", "john@doe.com", "John Doe");
+		
 	}
 
 }
