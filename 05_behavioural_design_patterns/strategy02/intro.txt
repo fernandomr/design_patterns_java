@@ -1,0 +1,24 @@
+
+Intent:
+	With strategy can encapsulate a real life algorithm
+	Define a family of algorithms, encapsulate each one and make them interchangeable.
+	Strategy lets the algorithm vary independently from clients that use it.
+	Ex: to set different levels of difficulty of a chess game.
+	Known as Policy
+
+When to use:
+	When there's a need to only change the behavior of the class.
+	To switch between different variants of an algorithm.
+	When clients shouldn't be aware of the data the algorithms use.
+
+Benefits:
+	Algorithm families use inheritance for common parts.
+	Avoid conditional statements.
+	Clients that use the application can choose the required behavior.
+
+Drawbacks:
+	Increases number of objects in application (share strategies between objects).
+
+Conclusion:
+	Encapsulate algorithm.
+	Change algorithm at run time.

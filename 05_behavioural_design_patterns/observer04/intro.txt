@@ -1,0 +1,22 @@
+
+Intent:
+	Used to subscribe to changes in object states
+	Define one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically
+
+When to use:
+	When a change to an object should trigger a change in others
+	When there's no idea on how many objects need to be changed
+	When objects should/can be notified when other object changes
+	One object may notify another without knowing them directly
+
+Benefits:
+	Loose coupling between observer and subject
+	Support broadcast model
+
+Drawbacks:
+	One change can result in many unnecessary notifications
+	Clients don't know what effects in object state changes will happen
+
+Conclusion:
+	Observes changes in objects
+	Preserve loose coupling

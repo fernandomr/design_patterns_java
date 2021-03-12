@@ -1,0 +1,28 @@
+
+Intent:
+	It can be used to visit elements of a collection and it is most used in a three structure
+	Represent an operation to be performed on the elements of an object structure.
+	Visitor lets you define a new operation without changing the classes of the elements in which it operates.
+	Allows to run operations on different kind of objects
+
+When to use:
+	To visit all elements of a complex object structure and do a operation on each one of them
+		- Perform operations based upon concrete classes
+	Avoid pollution of concrete classes with many different operations
+		- Visitor groups this functionality
+	To easily define new operations without changing concrete classes.
+	
+
+Benefits:
+	Add new operations is easy;
+	Visitor pattern separates operations that don't belong together;
+	Accumulate state: visitors can maintain state across the hierarchy;
+	
+
+Drawbacks:
+	Add new concrete elements is hard, because each new concrete element forces the visitor to add the operations required
+	The pattern break encapsulation: it relies on the interface of the concrete element.
+
+Conclusion:
+	Great to visit complex object structure and concrete elements;
+	Centralizes logic;

@@ -1,0 +1,25 @@
+
+Intent:
+	Encapsulate a request as an object, letting you parameterize clients with different requests,
+		queue or log requests and support undoable operations.
+	Known as: Action, Transaction
+
+When to use:
+	When command can be a parameter
+	Pass a command like a general object
+	When there's a need to queue requests
+	To save request state
+	To undo functionality
+	To support logging
+	To re-execute code in case of failure
+
+Benefits:
+	Decouples:
+		Object that invokes the operation from object that knows how to perform it
+	Commands ARE Objects:
+		All OO rules apply to them
+	Create new commands is easy: just add a new class
+
+Conclusion:
+	Good to capture a request
+	Good to centralize action functionality

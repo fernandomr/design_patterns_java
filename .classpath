@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="03_creational_design_patterns"/>
 	<classpathentry kind="src" path="04_structural_design_patterns"/>
+	<classpathentry kind="src" path="05_behavioural_design_patterns"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
