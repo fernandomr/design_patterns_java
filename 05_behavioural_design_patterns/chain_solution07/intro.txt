@@ -1,0 +1,22 @@
+
+Intent:
+	Decouple a sender and a receiver;
+	Avoid coupling the sender of a request by giving more than one object a change to handle the request.
+	Chain the receiving object and pass the request along the chain until an object handles it.
+
+When to use:
+	When multiple objects need to handle a request;
+	When isn't clear upfront who will handle it;
+	Who can handle the request should be dynamic (add or remove handlers dynamically);
+
+Benefits:
+	Loose coupling between requester and receiver;
+	Objects can spread responsibility in handling requests;
+
+Drawbacks:
+	No guarantee the request will be handled;
+
+Conclusion:
+	Handle requests dynamically;
+	Enhanced loose coupling between sender and receiver;
+	Objects that handle the request can be added or removed dynamically;

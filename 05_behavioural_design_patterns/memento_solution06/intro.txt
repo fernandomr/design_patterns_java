@@ -1,0 +1,27 @@
+
+Intent:
+	Externalize an object internal state
+	Capture and externalize an object's internal state without violating encapsulation, so that the object can be restored to this state later. 
+
+When to use:
+	To save a snapshot of an object's state;
+	When a direct interface to object state would violate encapsulation;
+	
+
+Benefits:
+	Preserve encapsulation;
+	Simplifies the originator (the object that has the state)
+
+Drawbacks:
+	Might be expensive to run due to object creation;
+	The language must facilitate that only the originator can access the memento state;
+	Extra management for caretaking the memento should be created;
+	
+
+Conclusion:
+	Access state but preserve encapsulation;
+	Save snapshot of object.
+
+
+Why can't the Command pattern be used?
+	Because there is times where save the object state is required.
