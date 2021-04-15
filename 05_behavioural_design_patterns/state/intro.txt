@@ -1,0 +1,25 @@
+
+Intent:
+	Change behavior based on state;
+	Allow an object to alter its behavior when its internal state changes. The object will appear to have changed its class. 
+
+When to use:
+	Object behavior depends on object state;
+	Avoid complex if-else structures: When the state changes, change the state object; Implementation is done in the state object;
+	
+All state behavior is delegated to the state implementation;
+Arguments can be passed from context to state;
+Only context is available to clients to see;
+Which state is next? This can be decided by the Context or the ConcreteState implementation
+
+Benefits:
+	State related behavior is centralized;
+	State transitions are explicit: state objects must be changed;
+	State changes can be atomic: only one variable in the Context;
+
+Drawbacks:
+	State objects must be shareable;
+
+Conclusion:
+	State behavior is centralized;
+	Reduce complexity due to state;

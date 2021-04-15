@@ -1,0 +1,21 @@
+
+Intent:
+	Define how objects work together;
+	Defines an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by
+	keeping objects from referring each other explicitly, and lets you vary their interaction independently.
+
+When to use:
+	Objects have complex communication between each other, but it is well defined;
+	When it's hard to identify how the communication actually works;
+	Object reuse is difficult: when the objects require a set of object dependencies, creating a waterfall of dependencies;
+	Centralize behavior between classes.
+
+Benefits:
+	Centralize behavior;
+	Decoupling of elements;
+	Changes many-to-many interaction to one-to-many: the changes director forwards the changes, for example, to many other objects;
+	The actual way that objects collaborate with each other is abstracted;
+
+Conclusion:
+	Centralize behavior and control;
+	This pattern promotes loose coupling between objects that need to work with each other;
