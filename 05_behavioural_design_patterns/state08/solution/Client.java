@@ -1,4 +1,4 @@
-package state;
+package state08.solution;
 
 public class Client {
 

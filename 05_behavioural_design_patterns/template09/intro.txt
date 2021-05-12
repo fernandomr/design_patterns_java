@@ -1,0 +1,21 @@
+
+Intent:
+	Define the skeleton of an algorithm in a operation, deferring some steps to subclasses.
+	The Template pattern lets subclasses redefine certain steps of an algorithm without changing the algorithm structure.
+	Ex: a document always will have the same lifecyle: save, open, close, read.
+
+When to use:
+	Implement an algorithm once:
+		Subclasses can provide different implementation.
+	Avoid code duplication.
+	Define how a class should be extended:
+		By implementing hooks.
+
+Benefits:
+	Ultimate code re-use: important for class libraries.
+	Provide hooks.
+	The abstract base class generally doesn't implement a hook: forces client to have an implementation.
+
+Conclusion:
+	Allows to heavily re-use code.
+	Allows to provide hooks.
